@@ -13,5 +13,5 @@ document.body.style.backgroundColor = hexColor;
 })
 
 function getRandomNumber(){
-    return Math.floor(Math.random * hex.length);
+    return Math.floor(Math.random() * hex.length);
 }
